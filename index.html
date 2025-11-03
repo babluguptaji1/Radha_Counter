@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="counter-container">
+        <h1>Manual CRUD Counter</h1>
+        
+        <div class="display-box">
+            <span id="counter-value">0</span>
+        </div>
+        
+        <div class="controls">
+            <button id="decrement-btn" class="control-btn">-</button>
+            <button id="increment-btn" class="control-btn">+</button>
+        </div>
+
+        <hr>
+
+        <div class="set-reset-area">
+            <input type="number" id="set-input" placeholder="Enter new value">
+            <button id="set-btn" class="action-btn set-btn">Set Value (C/U)</button>
+            <button id="reset-btn" class="action-btn reset-btn">Reset to 0 (D)</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
